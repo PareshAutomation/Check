@@ -26,6 +26,7 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	// adding the changes by tester and waiting to approve by manager
 	}
 
 }
